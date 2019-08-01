@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	
+}
+
+.text { 
+	position: absolute;
+	top: 39%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 1.5em;
+} 
+
+.image {
+	z-index: 0;
+}
+
+.button {
+	position: absolute;
+	top: 64%;
+	left: 50%;
+	transform: translate(-50%, -50%);  
+	
+}
